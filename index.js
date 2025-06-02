@@ -103,3 +103,18 @@ copyBtn2.addEventListener("click", function() {
     }, 2000);
 
 })
+
+
+
+const themeSwitch = document.getElementById("theme-switch");
+const themeLabel = document.getElementById("theme-label");
+
+themeSwitch.addEventListener("change", function () {
+    document.body.classList.toggle("light-mode");
+
+    if (document.body.classList.contains("light-mode")) {
+        themeLabel.textContent = "Light Mode";
+    } else {
+        themeLabel.textContent = "Dark Mode";
+    }
+});
