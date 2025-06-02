@@ -11,4 +11,4 @@ A responsive password generator built with HTML, CSS, and JavaScript.
 - Light and dark theme toggle with switch on the top-left
 
 Dark Mode:
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/zanda-cross/Password-Generator/blob/f00129fb98b66d2bd6832475fece92b3da78273c/images/Screenshot%202025-06-02%20164240.png))
+![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20164240.png?raw=true)
