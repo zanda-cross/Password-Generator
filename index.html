@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--- just a test found online for mobile devices --->
+
+        <link rel="icon" type="image/lock-icon" href="/web dev/front-end/practice/Password Generator/images/favicon.ico">
+    </head>
+    <body>
+    <main>
+        <div class="top-text">
+            <h1>Generate a <span id="span-text"><br>random password</span></h1>
+            <h2>Never use an insecure password again!</h2>
+            <div class="checkbox-container">
+
+                <div class="checkbox-inline">
+                    <input type="checkbox" id="inc-uppercase">
+                    <label for="inc-uppercase">Include Uppercase letters</label>
+                </div>
+
+                <div class="checkbox-inline">
+                    <input type="checkbox" id="inc-lowercase">
+                    <label for="inc-lowercase">Include Lowercase letters</label>
+                </div>
+
+                <div class="checkbox-inline">
+                    <input type="checkbox" id="inc-numbers">
+                    <label for="inc-numbers">Include Numbers</label>
+                </div>
+
+                <div class="checkbox-inline">
+                    <input type="checkbox" id="inc-special">
+                    <label for="inc-special">Include Special characters</label>
+                </div>
+
+                <p id="error"></p>
+            </div>
+
+            <div class="length-container">
+                <div class="length-selector">
+                    <button id="subtract-btn">
+                        <ion-icon name="remove-outline" id="subtract-icon"></ion-icon>
+                    </button>
+                    <p id="pwd-length">12</p>
+                    <button id="add-btn">
+                        <ion-icon name="add-outline" id="add-icon"></ion-icon>
+                    </button>
+                </div>
+            </div>
+
+            <button id="btn-pwdgenerator">Generate Passwords</button>
+
+        </div>
+
+        <hr>
+
+        <div class="pwd-results">
+            <div class="password-box">
+                <div class="password-container">
+                    <p id="box-one"></p>
+                    <button class="copy-btn-1"><ion-icon name="copy-outline"></ion-icon></button>
+                </div>
+                <p class="copy-msg" id="copy-one"></p>
+            </div>
+
+            <div class="password-box">
+                <div class="password-container">
+                    <p id="box-two"></p>
+                    <button class="copy-btn-2"><ion-icon name="copy-outline"></ion-icon> </button>
+                </div>
+                <p class="copy-msg" id="copy-two"></p>
+            </div>
+        </div>
+    </main>
+        <script src="index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+    background-color: #97d08d ;
+    color: white;
+  }
+  
+  main {
+  background-color: #1F2937;
+  width: 550px;
+  height: 560px;
+  margin: 64px auto 0 auto;
+  border-radius: 20px;
+  box-shadow: 9px 9px 20px 2px rgb(38, 37, 37);
+  }
+  
+  .top-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-top: 50px;
+  }
+  
+  .top-text > h2 { 
+  margin-top: 1px;
+  }
+  
+  #span-text {
+  color: #8bcd7f;
+  }
+  
+  #btn-pwdgenerator {
+  width: 191px;
+  height: 52px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #8bcd7f ;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 5px #374151;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  #btn-pwdgenerator:hover {
+  box-shadow: 0 0 5px 0 #7bbf6f ;
+  transform: scale(1.03)
+  }
+  
+  #btn-pwdgenerator:active {
+  box-shadow: 1px 1px  5px 5px #7abc6e ;
+  transform: scale(0.98)
+  }
+  
+  .pwd-results {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  margin-top: 30px;
+  gap: 30px;  
+  }
+  
+  .password-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 211px;
+  height: 39px;
+  border-radius: 10px;
+  background-color: #273549;
+  margin: 20px auto 0 auto;
+  padding-left: 10px;
+  padding-right: 5px;
+  }
+  
+  .password-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .copy-msg {
+  color: #7abc6e;
+  font-size: 14px;
+  margin-top: 6px;
+  opacity: 0px;
+  transition: opacity 2s ease-in-out;
+  
+                                    /* align-self: flex-end; this can move msg to the end of the box */
+  }
+  
+  .copy-msg.show {
+  opacity: 1;
+  }
+  
+  .copy-btn-1, .copy-btn-2 {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 5px;
+  }
+  
+  .copy-btn-1 button, .copy-btn-2 button {
+  cursor: pointer;
+  }
+  
+  .copy-btn-1:active, .copy-btn-2:active {
+  transform: scale(0.88);
+  }
+  
+  #box-one, #box-two {
+  padding: 5px;
+  font-size: 16px; 
+  font-weight: 400;
+  }
+  
+  
+  hr {
+  margin-left: 50px;  
+  margin-right: 50px;
+  margin-top: 30px;
+  border-color: #3b5375;
+  }
+  
+  .checkbox-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  }
+  
+  .checkbox-container label {
+  cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+  cursor: pointer;
+  }
+
+  .checkbox-container input[type="checkbox"]:checked {
+    accent-color: #8bcd7f; 
+  }
+  
+  
+  #error {
+  color: red;
+  }
+  
+  
+  .length-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -88px;
+    margin-left: 250px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+    width: fit-content;
+    height: 30px;
+  }
+  
+  .length-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #subtract-btn, #add-btn {
+    width: 30px;
+    height: 30px;
+    margin-left: 10;
+    margin-right: 10;
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #subtract-btn:active, #add-btn:active {
+    transform: scale(0.9);
+    background-color: #d1e7dd;  
+    border-radius: 6px;
+
+  }
+  
+  #pwd-length {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    background: none;
+    font-size: larger;
+    text-align: center;
+    font-weight: 600;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    border-left: 2px solid #7abc6e;
+    border-right: 2px solid #7abc6e;
+    line-height: 1;
+    color: black;
+  }
+  
+  #add-icon, #subtract-icon {
+    width: 30px;
+    height: 30px;
+  }
