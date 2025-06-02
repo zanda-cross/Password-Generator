@@ -2,6 +2,8 @@
 
 A responsive password generator built with HTML, CSS, and JavaScript.
 
+Live at: https://zanda-cross.github.io/Password-Generator/
+
 ## Features
 
 - Generate strong random passwords
@@ -12,3 +14,8 @@ A responsive password generator built with HTML, CSS, and JavaScript.
 
 Dark Mode:
 ![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20164240.png?raw=true)
+
+Light Mode:
+![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20174619.png?raw=true)
+
+
