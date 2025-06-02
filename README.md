@@ -14,7 +14,7 @@ Live at: https://zanda-cross.github.io/Password-Generator/
 
 Dark Mode:
 
-![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20164240.png?raw=true)
+![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20180002.png?raw=true)
 
 Light Mode:
 
