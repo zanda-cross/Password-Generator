@@ -13,9 +13,11 @@ Live at: https://zanda-cross.github.io/Password-Generator/
 - Light and dark theme toggle with switch on the top-left
 
 Dark Mode:
+
 ![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20164240.png?raw=true)
 
 Light Mode:
+
 ![image alt](https://github.com/zanda-cross/Password-Generator/blob/main/images/Screenshot%202025-06-02%20174619.png?raw=true)
 
 
